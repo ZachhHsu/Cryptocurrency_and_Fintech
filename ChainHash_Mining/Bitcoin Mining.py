@@ -1,5 +1,3 @@
-# Quiz 4: Bitcoin Mining
-
 import hashlib as hl
 import time as ti
 import pprint as pp
@@ -16,7 +14,7 @@ def mine(block, num_zeros):
     required_str = '0' * num_zeros
     print('You must generate a hash value with this leading string =', required_str)
     # +++ Your Code Below +++
-    for nonce in range(99999):
+    for nonce in range(9999):
         block['nonce'] = nonce
         hash_val = sha256_hash(str(block))
         leading_str = hash_val[:num_zeros]
