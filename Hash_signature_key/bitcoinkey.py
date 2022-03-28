@@ -1,8 +1,4 @@
-# Open AnacondaPrompt in Windows 10
-# Open Terminal in MacBook and enter 'conda activate'
-# In either case, enter the following two pip statement:
-# pip3 install base58
-# pip3 install ecdsa
+
 
 import hashlib,base58,binascii,ecdsa,codecs
 
