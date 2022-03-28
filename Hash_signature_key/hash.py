@@ -17,5 +17,3 @@ hash256 = hashlib.sha256(text_bytes)
 print("SHA256(text) =", hash256.hexdigest())
 print('===============================================================================')
 
-# You can change just one letter in the text
-# Do you see any change in hashed values?
