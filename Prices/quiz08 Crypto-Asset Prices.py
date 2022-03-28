@@ -1,5 +1,3 @@
-# Quiz 8: Historical Performance of Crypto-Assets
-
 import math as ma
 import numpy as np
 import matplotlib.pyplot as plt
