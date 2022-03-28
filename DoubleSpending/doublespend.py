@@ -1,8 +1,3 @@
-﻿# Open AnacondaPrompt in Windows 10
-# Open Terminal in MacBook and enter 'conda activate'
-# In either case, enter the following pip statement:
-#           pip install python-bitcoinrpc
-
 import random as rd
 import pprint as pp
 import bitcoinrpc.authproxy as ba
