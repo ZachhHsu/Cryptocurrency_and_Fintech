@@ -1,9 +1,3 @@
-# Quiz 3
-# Open AnacondaPrompt in Windows 10
-# Open Terminal in MacBook and enter 'conda activate'
-# In either case, enter the following pip statement:
-#                   pip install bit
-#
 # More info on 'bit' library -> https://ofek.dev/bit/index.html
 # Check your bitcoin balance -> https://blockstream.info/testnet/
 
