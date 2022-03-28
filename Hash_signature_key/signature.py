@@ -1,6 +1,3 @@
-# Open AnacondaPrompt in Windows 10
-# Open Terminal in MacBook and enter 'conda activate'
-# In either case, enter 'pip3 install pycryptodome'
 
 from Crypto.PublicKey import RSA
 from hashlib import sha512
@@ -25,23 +22,19 @@ print('Hash value of msg =', hash)
 signature = pow(hash, privateKey, keyModulus)
 print('Signature =', hex(signature))
 
-# How to verify signature ?    Hash again to verify the signature
+# Hash again to verify the signature
 # +++ Your Code Below +++
 hashfromsignature = pow(signature, publicKey, keyModulus)
 print('Is this valid signature:', hash == hashfromsignature)
 
-# +++ Your Code Above +++
 
-
-
-# How to tamper signature and verify again ?
-# +++ Your Code Below +++
+# Tamper signature and verify again 
 msg_hack = 'No money for you' 
 msg = bytes(msg_hack, 'utf-8')
 hash = int.from_bytes(sha512(msg).digest(), byteorder='big')
 hashfromsignature = pow(signature, publicKey, keyModulus)
 print('Is this valid signature:', hash == hashfromsignature)
 
-# +++ Your Code Above +++
+
 
 
