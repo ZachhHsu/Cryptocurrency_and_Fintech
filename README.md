@@ -10,7 +10,7 @@ Find the code below if you are interested in learning more!
   - [Hashing](https://github.com/ZachhHsu/Cryptocurrency_and_Fintech/edit/main/Hash_signature_key/hash.py)
   - [Signature](https://github.com/ZachhHsu/Cryptocurrency_and_Fintech/blob/main/Hash_signature_key/signature.py)
 * Send Bitcoin
-  - [Create Keys](https://github.com/ZachhHsu/Cryptocurrency_and_Fintech/blob/main/Send_Bitcoin/Send%20Bitcoin%20Money%20Using%20Python.py)
+  - [Send Bitcoin](https://github.com/ZachhHsu/Cryptocurrency_and_Fintech/blob/main/Send_Bitcoin/Send%20Bitcoin%20Money%20Using%20Python.py)
 * Blockchain operation
   - [Blockchain Hashing](https://github.com/ZachhHsu/Cryptocurrency_and_Fintech/blob/main/ChainHash_Mining/blockchainhash.py)
   - [Bitcoin Mining](https://github.com/ZachhHsu/Cryptocurrency_and_Fintech/blob/main/ChainHash_Mining/Bitcoin%20Mining.py)
